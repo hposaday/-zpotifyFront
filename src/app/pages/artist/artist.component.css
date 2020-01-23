@@ -1,0 +1,24 @@
+mat-grid-list {
+    background-color: black;
+}
+
+p {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.artist-image {
+    border-radius: 50%!important;
+    height: 300px!important;
+}
+
+.album-image {
+    
+    height: 100px;
+}
+
+
+.top-tracks-table {
+    color: white;
+}

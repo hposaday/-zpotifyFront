@@ -1,0 +1,34 @@
+
+<app-toolbar></app-toolbar>
+<mat-grid-list cols="2" rowHeight="2:2" >
+    <mat-grid-tile >
+        <img class="artist-image" src="{{artistImage}}">
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <p>{{artistName}}</p>
+    </mat-grid-tile>
+  </mat-grid-list>
+
+  <mat-grid-list class="top-tracks-table" cols="3" rowHeight="100px">
+    <mat-grid-tile >
+       Foto
+    </mat-grid-tile>
+    <mat-grid-tile>
+       ALbum
+    </mat-grid-tile>
+    <mat-grid-tile>
+        Cancion
+     </mat-grid-tile>
+  </mat-grid-list>
+
+  <mat-grid-list *ngFor="let track of artistTopTracks" class="top-tracks-table" cols="3" rowHeight="200px">
+    <mat-grid-tile >
+        <img class="album-image" src="{{track.albumImage[0].url}}">
+     </mat-grid-tile>
+     <mat-grid-tile>
+        {{track.albumName}}
+     </mat-grid-tile>
+     <mat-grid-tile>
+         {{track.trackName}}
+      </mat-grid-tile>
+  </mat-grid-list>

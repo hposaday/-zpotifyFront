@@ -1,0 +1,33 @@
+mat-grid-list {
+    background-color: black;
+}
+
+mat-card {
+    max-width: 300px;
+    max-height: 450px;
+    height: 600px;
+}
+
+img {
+   height: 350px;
+}
+
+.artist-link {
+    background-color: rgb(24, 196, 24);
+    border-radius: 5px;
+    border: solid 1px white;
+    padding: 1%;
+    margin-top: 1%;
+    display: inline-block;
+    font-size: 1rem;
+    
+}
+
+a {
+    color: white;
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}

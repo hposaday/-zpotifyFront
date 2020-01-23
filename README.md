@@ -9,7 +9,7 @@
 
 - Abrir una terminal en la carpeta del proyecto
 - Desde la terminal ejecutar el comando "npm install" (se debe tener npm instalado) esto instalara los paquetes necesarios para el funcionamiento del proyecto
-- Desde la terminal ejecutar el comando "ng serve", este creara un servidor local. Esperar que se compile el proyecto (se muestra el mensaje "" en la terminal) 
+- Desde la terminal ejecutar el comando "ng serve", este creara un servidor local. Esperar que se compile el proyecto (se muestra el mensaje " Compiled successfully." en la terminal) el servidor puede tardar un poco en iniciar. 
 - Ir a  `http://localhost:4200/` en el navegador 
 - Enjoy
 
